@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="warning">#BE3030</color>
+
+    <color name="base_text_1_color">#ff1c1c1c</color>
+    <color name="base_text_2_color">#ff717171</color>
+    <color name="base_text_3_color">#ffaaaaaa</color>
+
+    <color name="base_divider_color">#33000000</color>
+    <color name="base_background">#fff3f3f3</color>
+    <color name="keyboard_clear_bg">#ffe4dede</color>
+
+    <color name="white">#ffffffff</color>
+
+    <color name="buttonColor">#FF6600</color>
+    <color name="black">#000000</color>
+    <color name="buttonBg">#016838</color>
+    <color name="red">#FF0033</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

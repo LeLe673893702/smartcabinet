@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".page.order.ReturnMoneyActivity">
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:id="@+id/btFaceOrder"
+        android:background="@color/buttonBg"
+        android:text="人脸结算"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/base_text_2_size"
+        />
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:id="@+id/btPasswordOrder"
+        android:background="@color/buttonBg"
+        android:text="密码结算"
+        android:textColor="@color/white"
+        android:textSize="@dimen/base_text_2_size"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        />
+
+</LinearLayout>

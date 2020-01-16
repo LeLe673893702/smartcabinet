@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.facecollection.FaceFragment">
+
+    <TextView
+        android:id="@+id/tvFaceWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/base_text_1_color"
+        android:textSize="@dimen/base_text_2_size"
+        android:layout_centerHorizontal="true"
+        tools:text="未检测到人脸"
+        />
+
+    <FrameLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_circle_face_preview"
+        >
+        <com.llc.smartcabinet.view.AutoFitTextureView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/tpvIrCamera"
+            />
+
+        <com.llc.smartcabinet.view.AutoFitTextureView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/tpvRgbCamera"
+            />
+
+        <FrameLayout
+            android:id="@+id/flFaceFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开摄像头"
+        android:id="@+id/btOpenCamera"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
